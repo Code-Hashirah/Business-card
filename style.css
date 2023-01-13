@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#body{
+    background-color: rgb(5, 38, 78);
+    display: flexbox;
+    padding: 30px 30px 30px 90px;
+}
+#business{
+    height: 400px;
+    width: 400px;
+    /* display: flex; */
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(1, 8, 17);
+    border-radius: 10px;
+    position: relative;
+    bottom: 20%;
+}
+#hire{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+#social{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#pic{
+    margin: 5px;
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    width: 50%;
+    height: 150px;
+    border-radius: 150px;
+    margin-bottom: 30px;
+    /* background-color:rgb(5, 103, 103) ; */
+}
+#line{
+    margin: 20px;
+    border: 1px solid white;
+    height: 1px;
+    width: 50%;
+}
+#twitter{
+    font-size: 20px;
+    color:rgb(5, 74, 74) ;
+    border-radius: 50px;
+}
+#linkedIn{
+    font-size: 20px;
+    color:rgb(12, 10, 144);
+    border-radius: 50px;
+}
+#instagram{
+    font-size: 20px;
+    border-radius: 50px;
+    color: rgb(199, 15, 76);
+}
+#about{
+    text-align: center;
+    margin-top: 50%;
+    background-color: transparent;
+    color: darkgray;
+}
+#btn{
+    color: rgb(5, 103, 103);
+}
+#btn:hover{
+    background-color: deeppink;
+}
+#linkedIn:hover{
+    color: darkslateblue;
+}
+#instagram:hover{
+    color: darkslateblue;
+}
+#twitter:hover{
+     color: darkslateblue;
+}
